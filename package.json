@@ -1,0 +1,23 @@
+{
+  "name": "@vg/twitchapio",
+  "version": "1.0.0",
+  "description": "Easy, all-in-one Twitch API interface written in typescript for NodeJS",
+  "keywords": [
+    "Twitch"
+  ],
+  "homepage": "https://github.com/Vaborgabe/TwitchAPIO#readme",
+  "bugs": {
+    "url": "https://github.com/Vaborgabe/TwitchAPIO/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vaborgabe/TwitchAPIO.git"
+  },
+  "license": "ISC",
+  "author": "VaporGabe",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
