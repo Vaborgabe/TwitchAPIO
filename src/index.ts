@@ -1,3 +1,5 @@
+import auth from "./auth/index.js";
+
 export default class TwitchAPIO {
     clientId: string;
     clientSecret: string | undefined;
@@ -7,3 +9,4 @@ export default class TwitchAPIO {
         if (clientSecret) this.clientSecret = clientSecret;
     }
 }
+export const TwitchApi = { auth };

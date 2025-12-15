@@ -5,5 +5,6 @@ export function urlEncodeObject(object: { [key: string]: unknown}): string {
             out.push(encodeURIComponent(key) + '=' + encodeURIComponent(String(object[key])));
         }
     }
-    return out.join('&');
+    return out.join('&'); 
+    //return encodeURI(out.join('&'));
 }
