@@ -1,3 +1,4 @@
+import AppToken from "./AppToken.js";
 import auth from "./auth/index.js";
 
 export default class TwitchAPIO {
@@ -10,3 +11,5 @@ export default class TwitchAPIO {
     }
 }
 export const TwitchApi = { auth };
+export { AppToken };
+
